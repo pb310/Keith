@@ -17,6 +17,7 @@ const autostatusStatusLikeEmojis = process.env.STATUS_LIKE_EMOJIS || '💛,❤�
 
 const botPrefix = process.env.PREFIX || ".";
 const botAuthor = process.env.AUTHOR || "Keith";
+const botexpiration = process.env.BOT_EXPIRATION_DATE || "11/03/2027";
 const botUrl = process.env.BOT_PIC || "https://files.catbox.moe/9zqj7g.jpg";
 const botGurl = process.env.BOT_GURL || "https://github.com/Keithkeizzah/KEITH-MD";
 const botTimezone = process.env.BOT_TIMEZONE || "Africa/Nairobi";
@@ -59,6 +60,7 @@ module.exports = {
   botGurl,
   botTimezone,
   botBotname,
+  botexpiration,
   botPackname,
   botMode,
   botSessionName
